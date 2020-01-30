@@ -19,6 +19,5 @@ def printer(attendees)
   assign_rooms(attendees).each_with_index do |value, index|
     puts (batch_badge_creator attendees)[index]
     puts value 
-    line.chomp
 end
 
